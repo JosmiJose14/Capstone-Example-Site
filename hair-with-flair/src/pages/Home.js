@@ -3,7 +3,7 @@ import hairsalon from "../images/hairsalon.jpg";
 export default function Home() {
     return (
       <div id="container">
-      <h2 calse="sidepadding">About Us</h2>
+      <h2 class="headColor sidepadding">About Us</h2>
         <div class="AboutUs">
         <div class="side sidepadding" style={{width:'30%'}}>
           <img class="image" src={hairsalon} alt="hair-salon"/>

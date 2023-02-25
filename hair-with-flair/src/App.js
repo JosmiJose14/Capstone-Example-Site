@@ -8,7 +8,6 @@ function App() {
   return (
    <>
     <Navbar />
-
     <Routes>
     <Route path="/Home" element={<Home />} />
   </Routes>

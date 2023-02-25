@@ -88,6 +88,15 @@ h1{
 {
   padding-left: 4%
 }
+.headColor
+{
+  color:#b82243; 
+}
+p
+{
+  margin: 0;
+  text-align: justify;
+}
 @media screen and (max-width: 768px) {
   .hamburger {
     display: block;
@@ -124,4 +133,13 @@ h1{
     display: block;
     height: auto;
   }
+  .AboutUs
+  {
+    flex-direction: column;
+    padding-right: 4%;
+  }
+.side
+{
+  width: 95% !important;
 }
+  }
