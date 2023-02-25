@@ -92,10 +92,36 @@ h1{
 {
   color:#b82243; 
 }
-p
-{
-  margin: 0;
-  text-align: justify;
+
+/* footer css */
+.footerAboutUS {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 98%;
+  background-color: #000000;
+  padding: 1%;
+  color: white;
+}
+
+.footerHeading {
+  font-weight: bold;
+}
+
+.footerAboutUS p {
+  font-size: smaller;
+}
+
+.column {
+  flex: 33.33%;
+  text-align: center;
+}
+
+footer {
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
 }
 @media screen and (max-width: 768px) {
   .hamburger {
@@ -141,5 +167,9 @@ p
 .side
 {
   width: 95% !important;
+}
+.footerAboutUS {
+  display: grid;
+  text-align: center;
 }
   }
