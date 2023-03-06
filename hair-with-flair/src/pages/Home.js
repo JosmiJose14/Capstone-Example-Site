@@ -30,7 +30,7 @@ export default function Home() {
 
       </div>
       <h3 className="headColor sidepadding">Know our services</h3>
-      <Accordion allowMultipleExpanded={true} allowZeroExpanded={true} className="sidepadding" style={{ paddingLeft: '4%' }}>
+      <Accordion allowMultipleExpanded={true} allowZeroExpanded={true} className="sidepadding" style={{ paddingLeft: '4%',width:'90%' }}>
         <AccordionItem>
           <AccordionItemHeading>
             <AccordionItemButton>
