@@ -7,15 +7,16 @@ function Footer() {
     <div className="footerAboutUS">
       <div className="column">
         <h3 className="footerHeading">Services</h3>
-        <div class="footerSub">
-          <p>Service 1</p>
-          <p>Service 2</p>
-          <p>Service 3</p>
+        <div className="footerSub">
+          <p>Hair Examination and Remedies</p>
+          <p>Gender-free haircuts</p>
+          <p>Hair Treatments</p>
+          <p>Transform my feel</p>
         </div>
       </div>
       <div className="column">
         <h3 className="footerHeading">Contact Us</h3>
-        <div class="footerSub">
+        <div className="footerSub">
           <p><FaEnvelope />&nbsp;hairwithflair@shaw.ca</p>
           <p><FaMobile style={{ fontSize: '18px' }} />&nbsp;250-992-1858</p>
           {/* <p><FaFax />&nbsp;250-992-1858</p> */}
@@ -25,7 +26,7 @@ function Footer() {
       </div>
       <div className="column">
         <h3 className="footerHeading">Business Hours</h3>
-        <div class="footerSub">
+        <div className="footerSub">
           <p>Tue-Sat: 10.00am - 5.00pm</p>
           <p>Sun & Mon: Closed</p>
         </div>

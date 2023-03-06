@@ -1,13 +1,15 @@
-import React ,{ useState }  from 'react';
-import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import React, { useState } from 'react';
+import { Link, useMatch, useResolvedPath, useLocation } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHamburger } from "@fortawesome/free-solid-svg-icons";
-export default function Navbar(){
-    const [isNavExpanded, setIsNavExpanded] = useState(false);
-    return (
-        <div id="divHeader">
-        <h1>Hair with Flair</h1>
-        <nav className="navigation">
+export default function Navbar() {
+  const location = useLocation();
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+  return (
+    <div id="divHeader">
+
+      <nav className="navigation">
+        <h1 className='headColor sidepadding'>Hair with Flair</h1>
         <button
           className="hamburger"
           onClick={() => {
@@ -23,27 +25,35 @@ export default function Navbar(){
           <div
             className="navigation-menu">
             <ul>
-            <CustomLink to="/Home">Home</CustomLink>
-            <CustomLink to="/Service">Services</CustomLink>
-            <CustomLink to="/Appointments">Appointments</CustomLink>
+              <CustomLink to="/Home">Home</CustomLink>
+              <CustomLink to="/Service">Services</CustomLink>
+              <CustomLink to="/Appointments">Appointments</CustomLink>
             </ul>
           </div>
         </div>
-      </nav>
-      </div>
-    );
-  };
 
-  function CustomLink({ to, children, ...props }) {
-    const resolvedPath = useResolvedPath(to)
-    const isActive = useMatch({ path: resolvedPath.pathname, end: true })
-  
-    return (
-      <li className={isActive ? "active" : ""}>
-        <Link to={to} {...props}>
-          {children}
-        </Link>
-      </li>
-    )
-  }
-    
+      </nav>
+      <div id="brdCrumb" className='sidepadding'>
+        <Link isActive="false" to="/Home" className={!location.pathname.startsWith("/Home") ? "breadcrumb-not-active" : "breadcrumb-hide"}>Home</Link>
+        <span className={location.pathname === "/Service" ? "breadcrumb-arrow" : "breadcrumb-arrow-hide"}>&gt;</span>
+        <Link to="/Service" className={location.pathname === "/Service" ? "breadcrumb-active" : "breadcrumb-hide"}>Services</Link>
+        <span className={location.pathname === "/Appointments" ? "breadcrumb-arrow" : "breadcrumb-arrow-hide"}>&gt;</span>
+        <Link to="/Appointments" className={location.pathname === "/Appointments" ? "breadcrumb-active" : "breadcrumb-hide"}>Appointments</Link>
+      </div>
+    </div>
+  );
+};
+
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+
+  return (
+    <li className={isActive ? "active" : ""}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  )
+}
+
