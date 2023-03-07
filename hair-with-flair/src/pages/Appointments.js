@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 export default function Appointments() {
   return (
     <div id="container" className='clsAppointments' >
-      <div className='appointmentFrm'>
+      <div className='appointmentFrm sidepadding'>
         <h2 className='headColor' style={{ textAlign: 'center' }}>Book your appoinments</h2>
         <form className="frmClass">
           <label>

@@ -34,7 +34,7 @@ export default function Navbar() {
 
       </nav>
       <div id="brdCrumb" className='sidepadding'>
-        <Link isActive="false" to="/Home" className={!location.pathname.startsWith("/Home") ? "breadcrumb-not-active" : "breadcrumb-hide"}>Home</Link>
+        <Link isActive='false' to="/Home" className={!location.pathname.startsWith("/Home") ? "breadcrumb-not-active" : "breadcrumb-hide"}>Home</Link>
         <span className={location.pathname === "/Service" ? "breadcrumb-arrow" : "breadcrumb-arrow-hide"}>&gt;</span>
         <Link to="/Service" className={location.pathname === "/Service" ? "breadcrumb-active" : "breadcrumb-hide"}>Services</Link>
         <span className={location.pathname === "/Appointments" ? "breadcrumb-arrow" : "breadcrumb-arrow-hide"}>&gt;</span>
