@@ -15,17 +15,17 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 export default function Home() {
   return (
     <div id="container">
-      <h3 className="headColor sidepadding">About Us</h3>
+      <h3 className="headColor sidepadding">Welcome to our hair salon!</h3>
 
       <div className="AboutUs">
         <div className=" abtImage" >
           <img className="image" src={hairsalon} alt="hair-salon" />
         </div>
         <div className="abtText" >
-          <p className="aboutText">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
-          <p className="aboutText">architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
-          <p className="aboutText">tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-          <p className="aboutText">Overall, maintaining healthy hair requires a combination of good hair care habits and the use of high-quality hair products. With the right care and attention, you can keep your hair looking healthy, shiny, and beautiful. </p>
+          <p className="aboutText">We strive to provide our clients with top-notch hair care services in a warm and welcoming atmosphere. Our team of experienced and skilled stylists is dedicated to making sure you look and feel your best when you leave our salon.</p>
+          <p className="aboutText">We offer a wide range of hair services, including haircuts, color, highlights, balayage, keratin treatments, and more. Whether you want a subtle change or a bold new look, we can help you achieve the hairstyle you desire.</p>
+          <p className="aboutText">Overall, maintaining healthy hair requires a combination of good hair care habits and the use of high-quality hair products. With the right care and attention, you can keep your hair looking healthy, shiny, and beautiful.  We also offer product recommendations and advice on how to maintain your hairstyle between appointments. </p>
+          <p className="aboutText">Thank you for choosing our hair salon. We look forward to serving you and helping you achieve your hair care goals.</p>
         </div>
 
       </div>
