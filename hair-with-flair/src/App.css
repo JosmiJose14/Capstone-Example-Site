@@ -34,7 +34,7 @@ h1 {
 .navigation-menu li {
   list-style-type: none;
   margin: 0 1rem;
-  padding: 4px;
+  padding: 15px;
 }
 
 .navigation-menu li a {
@@ -65,13 +65,13 @@ h1 {
 }
 
 .navigation-menu li.active {
-  background-color: #b3aaac;
+  background-color: #d0d0d0;
   border-radius: 9px;
 
 }
 
 .navigation-menu li:hover {
-  background-color: #958689;
+  background-color: #d0d0d0;
   border-radius: 20px;
 }
 
@@ -242,7 +242,7 @@ ol li {
 }
 
 #buttons:hover {
-  background-color: #958689;
+  background-color: #f4f4f4;
   outline: none;
   -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
   -moz-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
@@ -395,7 +395,7 @@ a {
 
   
   .navigation {
-   height: 20px;
+   height: 45px;
   }
   .navigation-menu ul {
     position: absolute;
@@ -415,13 +415,14 @@ a {
   }
 
   .navigation-menu li a {
-    color: rgb(255, 255, 255);
+    color: rgb(184 34 67);;
     width: 100%;
-    padding: 1.5rem 0;
   }
-
+  .navigation-menu li.active {
+    border-radius: 0px;
+}
   .navigation-menu li:hover {
-    background-color: #958689;
+    background-color: #d0d0d0;
   }
 
   .navigation-menu ul {

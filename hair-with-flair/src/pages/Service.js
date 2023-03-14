@@ -28,25 +28,25 @@ export default function Service() {
       <div className="service-container sidepadding">
         <div className="service-section">
           <h3 className="headColor">Hair Examination and Remedies</h3>
-          <p title="Book our service for detailed examination">This service include importance of determining hair type and maintaining hair health, common hair problems and their treatments, product selection tips, and the benefits of consulting a professional. It emphasizes the need for personalized care and attention to maintain healthy, beautiful hair.</p>
+          <p title="Book our service for detailed hair examination">This service include importance of determining hair type and maintaining hair health, common hair problems and their treatments, product selection tips, and the benefits of consulting a professional. It emphasizes the need for personalized care and attention to maintain healthy, beautiful hair.</p>
           <p><b>Hourly Rate:</b> $75 (+ plus product fee)</p>
           <Link type="button" id="buttons" className="btnService" style={{ textDecoration: "none" }} to="/Appointments" >Book an appointment</Link>
         </div>
         <div className="service-section">
           <h3 className="headColor">Gender-free haircuts</h3>
-          <p title="Book our service for detailed examination">Our hair stylists  also offer consultations to help clients choose a gender-free haircut that best suits their needs and preferences.  Our environment welcome individuals to express themselves through their hair.</p>
+          <p title="Book our service for detailed  hair examination">Our hair stylists  also offer consultations to help clients choose a gender-free haircut that best suits their needs and preferences.  Our environment welcome individuals to express themselves through their hair.</p>
           <p><b>Hourly Rate:</b> $100 (+ plus product fee)</p>
           <Link type="button" id="buttons" className="btnService" style={{ textDecoration: "none" }} to="/Appointments" >Book an appointment</Link>
         </div>
         <div className="service-section">
           <h3 className="headColor">Hair Treatments</h3>
-          <p title="Book our service for detailed examination">The hair treatments are based on deep conditioning and scalp treatments. Deep conditioning treatments aim to nourish and hydrate damaged hair, using a mask or conditioning treatment left on for a period before washing out. Scalp treatments, on the other hand, target the scalp to promote healthy hair growth, using techniques such as a scalp massage or application of a scalp treatment product.</p>
+          <p title="Book our service for detailed hair examination">The hair treatments are based on deep conditioning and scalp treatments. Deep conditioning treatments aim to nourish and hydrate damaged hair, using a mask or conditioning treatment left on for a period before washing out. Scalp treatments, on the other hand, target the scalp to promote healthy hair growth, using techniques such as a scalp massage or application of a scalp treatment product.</p>
           <p><b>Hourly Rate:</b> $125 (+ plus product fee)</p>
           <Link type="button" id="buttons" className="btnService" style={{ textDecoration: "none" }} to="/Appointments" >Book an appointment</Link>
         </div>
         <div className="service-section">
           <h3 className="headColor">Transform my feel</h3>
-          <p title="Book our service for detailed examination">We offer a variety of services to help clients achieve their desired hair look. Keratin treatments can smooth and straighten hair while reducing frizz and increasing shine, while hair extensions can add length or volume. Hair coloring services range from basic highlights and lowlights to more complex techniques like balayage or ombre. Perms use chemicals to create curls or waves in naturally straight or fine hair. Hair smoothing treatments can reduce frizz and manageability without fully straightening the hair.</p>
+          <p title="Book our service for detailed hair examination">We offer a variety of services to help clients achieve their desired hair look. Keratin treatments can smooth and straighten hair while reducing frizz and increasing shine, while hair extensions can add length or volume. Hair coloring services range from basic highlights and lowlights to more complex techniques like balayage or ombre. Perms use chemicals to create curls or waves in naturally straight or fine hair. Hair smoothing treatments can reduce frizz and manageability without fully straightening the hair.</p>
           <p><b>Hourly Rate:</b> $80 (+ plus product fee)</p>
           <Link type="button" id="buttons" className="btnService" style={{ textDecoration: "none" }} to="/Appointments" >Book an appointment</Link>
         </div>

@@ -38,7 +38,7 @@ export default function Home() {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p>
+            <div>
               Examination and remedies based on
               <ol>
                 <li><em>Hair type: </em>The first step in choosing the right hair products is to determine your hair type. Hair can be straight, wavy, curly, or kinky, and each type has specific needs.</li>
@@ -46,7 +46,7 @@ export default function Home() {
                 <li><em>Hair problems:</em>Some common hair problems include dryness, breakage, split ends, dandruff, and thinning hair. Depending on the specific problem, different treatments may be recommended.</li>
                 <li><em>Product selection:</em> When selecting hair products, it's important to choose products that are designed for your specific hair type and needs.</li>
                 Consult a professional if you're experiencing hair problems or are unsure about which products to use, it's always a good idea to consult a professional.</ol>
-            </p>
+            </div>
             <Link type="button" id="buttons" style={{textDecoration: "none" }} to="/Appointments" >Book an appointment</Link>
           </AccordionItemPanel>
         </AccordionItem>
@@ -71,14 +71,14 @@ export default function Home() {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p>
+            <div>
               Our hair treatment are based on:
               <ol>
                 <li><em>Deep conditioning treatments:</em> Deep conditioning treatments are designed to nourish and hydrate hair that has been damaged or is in need of some extra TLC. This can involve the application of a mask or other conditioning treatment, which is left on the hair for a certain period of time before being washed out.</li>
 
                 <li> <em>Scalp treatments: </em>Scalp treatments can help to soothe and exfoliate the scalp, while also promoting healthy hair growth. This can involve a scalp massage, the application of a scalp treatment product, or both.</li>
               </ol>
-            </p>
+            </div>
             <Link type="button" id="buttons" style={{textDecoration: "none" }} to="/Appointments" >Book an appointment</Link>
           </AccordionItemPanel>
         </AccordionItem>
@@ -89,7 +89,7 @@ export default function Home() {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p>
+            <div>
               Our hair transformation services are:
               <ol>
                 <li><em>Keratin treatments:</em> Keratin treatments are designed to smooth and straighten hair, while also reducing frizz and increasing shine. This treatment typically lasts several months and can be a great option for clients with curly or frizzy hair.</li>
@@ -98,7 +98,7 @@ export default function Home() {
                 <li> <em>Perms:</em> Perms can help to add body and texture to hair that is naturally straight or fine. This involves using chemicals to reshape the hair's structure, creating curls or waves that can last for several months.</li>
                 <li> <em>Hair smoothing treatments:</em> Hair smoothing treatments can help to reduce frizz and make hair more manageable, without fully straightening it. This can be a great option for clients who want to keep some of their natural texture, while also taming unruly hair.</li>
               </ol>
-            </p> <Link type="button" id="buttons" style={{textDecoration: "none" }} to="/Appointments" >Book an appointment</Link>
+            </div> <Link type="button" id="buttons" style={{textDecoration: "none" }} to="/Appointments" >Book an appointment</Link>
           </AccordionItemPanel>
         </AccordionItem>
       </Accordion>
