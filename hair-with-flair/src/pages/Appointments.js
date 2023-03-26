@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 export default function Appointments() {
   return (
@@ -36,8 +36,8 @@ export default function Appointments() {
             <input type="Date" required />
           </label>
           <div className='divButtons'>
-          <input type="submit" value="Submit" id="buttons" className="btnForm"  style={{marginRight:'1%'}} />
-          <input type="reset" value="Reset" id="buttons" className="btnForm" />
+            <input type="submit" value="Submit" id="buttons" className="btnForm" style={{ marginRight: '1%' }} />
+            <input type="reset" value="Reset" id="buttons" className="btnForm" />
           </div>
         </form>
       </div>
@@ -101,7 +101,7 @@ export default function Appointments() {
             </p>
           </div>
         </div>
-      </div>     
+      </div>
     </div>
   );
 };

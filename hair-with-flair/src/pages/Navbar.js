@@ -25,22 +25,22 @@ export default function Navbar() {
           <div
             className="navigation-menu">
             <ul>
-              <CustomLink to="/Home"  onClick={() => {
-            setIsNavExpanded(!isNavExpanded);
-          }}>Home</CustomLink>
-              <CustomLink to="/Service"  onClick={() => {
-            setIsNavExpanded(!isNavExpanded);
-          }}>Services</CustomLink>
+              <CustomLink to="/Home" onClick={() => {
+                setIsNavExpanded(!isNavExpanded);
+              }}>Home</CustomLink>
+              <CustomLink to="/Service" onClick={() => {
+                setIsNavExpanded(!isNavExpanded);
+              }}>Services</CustomLink>
               <CustomLink to="/Appointments" onClick={() => {
-            setIsNavExpanded(!isNavExpanded);
-          }}>Appointments</CustomLink>
+                setIsNavExpanded(!isNavExpanded);
+              }}>Appointments</CustomLink>
             </ul>
           </div>
         </div>
 
       </nav>
       <div id="brdCrumb" className='sidepadding'>
-        <Link  to="/Home" className={!location.pathname.startsWith("/Home") ? "breadcrumb-not-active" : "breadcrumb-hide"}>Home</Link>
+        <Link to="/Home" className={!location.pathname.startsWith("/Home") ? "breadcrumb-not-active" : "breadcrumb-hide"}>Home</Link>
         <span className={location.pathname === "/Service" ? "breadcrumb-arrow" : "breadcrumb-arrow-hide"}>&gt;</span>
         <Link to="/Service" className={location.pathname === "/Service" ? "breadcrumb-active" : "breadcrumb-hide"}>Services</Link>
         <span className={location.pathname === "/Appointments" ? "breadcrumb-arrow" : "breadcrumb-arrow-hide"}>&gt;</span>

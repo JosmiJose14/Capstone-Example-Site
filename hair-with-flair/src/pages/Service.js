@@ -14,13 +14,13 @@ export default function Service() {
       <div className="divCarousel">
         <Carousel showThumbs={false}>
           <div>
-            <img src={carousel} style={{ width: "60%", height: "50%" }} />
+            <img src={carousel} style={{ width: "60%", height: "50%" }} alt="hair with flair salon" />
           </div>
           <div>
-            <img src={carousel1} style={{ width: "60%", height: "50%" }} />
+            <img src={carousel1} style={{ width: "60%", height: "50%" }} alt="hair with flair salon" />
           </div>
           <div>
-            <img src={carousel2} style={{ width: "60%", height: "50%" }} />
+            <img src={carousel2} style={{ width: "60%", height: "50%" }} alt="hair with flair salon" />
           </div>
         </Carousel>
       </div>
@@ -59,10 +59,8 @@ export default function Service() {
           <li>Cancellations made less than 24 hours before your appointment time will result in a charge of 50% of the service price.</li>
           <li>No-shows or cancellations made less than 2 hours before your appointment time will result in a charge of 100% of the service price.</li>
           <li>Please note that our salon reserves the right to require a credit card number to hold your appointment time. In the event that you violate our cancellation policy, the card on file will be charged accordingly.</li></ul>
-
         <p>We understand that unforeseen circumstances can arise, so if you need to make changes to your appointment, please do so as soon as possible by calling our salon at [salon phone number]. This will allow us to offer your time slot to another client who may be waiting.</p>
         <p>Thank you for your understanding and cooperation. We look forward to seeing you soon!</p>
-
       </div>
     </div>
   );
