@@ -51,7 +51,7 @@ h1 {
   width: 40px;
   padding: 0.5rem;
   border-radius: 50%;
-  background-color: #b82243;
+  background-color: #A01313;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
@@ -105,7 +105,7 @@ h1 {
 }
 
 .headColor {
-  color: #b82243;
+  color: #A01313;
 }
 
 form {
@@ -172,7 +172,6 @@ ol li {
 .serviceDiv {
   margin: auto;
   width: 90%;
-  text-align: center;
   padding-bottom: 4%;
 }
 
@@ -182,7 +181,6 @@ ol li {
   justify-content: center;
   align-items: stretch;
   margin: 1% 0;
-  text-align: center;
 }
 
 /* Style for the first section */
@@ -232,7 +230,7 @@ ol li {
   font-weight: bold;
   font-family: "Arial", serif;
   padding: 8px 40px;
-  background: #b82243;
+  background: #A01313;
   border: 0px;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
@@ -241,7 +239,8 @@ ol li {
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .75);
   box-shadow: 0 0 4px rgba(0, 0, 0, .75);
   color: #FFFAFA;
-}
+  cursor: pointer;
+}buttons
 
 #buttons:hover {
   background-color: #f4f4f4;
@@ -249,6 +248,7 @@ ol li {
   -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
   -moz-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
   box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+  color: black;
 }
 
 #buttons:focus {
@@ -347,11 +347,8 @@ th {
 .divCarousel {
   width: auto;
   margin: 0 4%;
-  padding-top: '2%';
-}
-
-.btnService {
-  margin-left: 4%;
+  padding-top: 2%;
+  margin-bottom: 5%;
 }
 
 .divUl {
@@ -371,7 +368,7 @@ a {
 }
 
 .breadcrumb-active {
-  color: #b82243;
+  color: #A01313;
 }
 
 

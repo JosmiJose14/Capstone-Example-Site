@@ -5,10 +5,10 @@ export default function Appointments() {
     <div id="container" className='clsAppointments' >
       <div className='appointmentFrm sidepadding'>
         <h2 className='headColor' style={{ textAlign: 'center' }}>Book your appoinments</h2>
-        <form className="frmClass">
+        <form className="frmClass" autoComplete="on">
           <label>
             Name:
-            <input type="text" required placeholder='ex : josmi' />
+            <input type="text" required placeholder='ex : josmi' autoComplete="given-name"/>
           </label>
           <label>
             Email:
@@ -96,7 +96,7 @@ export default function Appointments() {
               <strong>Email:</strong><a href="mailto:xyz@shaw.ca">xyz@shaw.ca</a>
             </p>
             <p>
-              <a href="contactus.html">
+              <a href="/Appointments" target="_self" >
                 Contact us today to book an appointment!</a>
             </p>
           </div>

@@ -15,11 +15,11 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 export default function Home() {
   return (
     <div id="container">
-      <h3 className="headColor sidepadding">Welcome to our hair salon!</h3>
+      <h2 className="headColor sidepadding">Welcome to our hair salon!</h2>
 
       <div className="AboutUs">
         <div className=" abtImage" >
-          <img className="image" src={hairsalon} alt="hair-salon" />
+          <img className="image" src={hairsalon} alt="hair-salon wall print" />
         </div>
         <div className="abtText" >
           <p className="aboutText">We strive to provide our clients with top-notch hair care services in a warm and welcoming atmosphere. Our team of experienced and skilled stylists is dedicated to making sure you look and feel your best when you leave our salon.</p>
@@ -47,7 +47,7 @@ export default function Home() {
                 <li><em>Product selection:</em> When selecting hair products, it's important to choose products that are designed for your specific hair type and needs.</li>
                 Consult a professional if you're experiencing hair problems or are unsure about which products to use, it's always a good idea to consult a professional.</ol>
             </div>
-            <Link type="button" id="buttons" style={{ textDecoration: "none" }} to="/Appointments" >Book an appointment</Link>
+            <Link type="button" id="buttons" style={{ textDecoration: "none" }} to="/Appointments" target="_self" >Book an appointment</Link>
           </AccordionItemPanel>
         </AccordionItem>
         <AccordionItem>
@@ -61,7 +61,7 @@ export default function Home() {
               Our salon offer gender-free haircuts by providing a variety of styles that are inclusive and accessible to all individuals, regardless of their gender identity or expression. </p>
             <p>Some popular gender-free haircuts include pixie cuts, bobs, shags, and textured layers. These styles can be customized to suit each individual's hair type, face shape, and personal style preferences.
             </p>
-            <Link type="button" id="buttons" style={{ textDecoration: "none" }} to="/Appointments" >Book an appointment</Link>
+            <Link type="button" id="buttons" style={{ textDecoration: "none" }} to="/Appointments"  target="_self">Book an appointment</Link>
           </AccordionItemPanel>
         </AccordionItem>
         <AccordionItem>
@@ -79,7 +79,7 @@ export default function Home() {
                 <li> <em>Scalp treatments: </em>Scalp treatments can help to soothe and exfoliate the scalp, while also promoting healthy hair growth. This can involve a scalp massage, the application of a scalp treatment product, or both.</li>
               </ol>
             </div>
-            <Link type="button" id="buttons" style={{ textDecoration: "none" }} to="/Appointments" >Book an appointment</Link>
+            <Link type="button" id="buttons" style={{ textDecoration: "none" }} to="/Appointments"  target="_self">Book an appointment</Link>
           </AccordionItemPanel>
         </AccordionItem>
         <AccordionItem>
@@ -98,14 +98,14 @@ export default function Home() {
                 <li> <em>Perms:</em> Perms can help to add body and texture to hair that is naturally straight or fine. This involves using chemicals to reshape the hair's structure, creating curls or waves that can last for several months.</li>
                 <li> <em>Hair smoothing treatments:</em> Hair smoothing treatments can help to reduce frizz and make hair more manageable, without fully straightening it. This can be a great option for clients who want to keep some of their natural texture, while also taming unruly hair.</li>
               </ol>
-            </div> <Link type="button" id="buttons" style={{ textDecoration: "none" }} to="/Appointments" >Book an appointment</Link>
+            </div> <Link type="button" id="buttons" style={{ textDecoration: "none" }} to="/Appointments"  target="_self">Book an appointment</Link>
           </AccordionItemPanel>
         </AccordionItem>
       </Accordion>
       <h3 className="headColor sidepadding">Our Experts</h3>
       <div className="flex-container">
         <div className="card" style={{ backgroundColor: '#000000', color: '#ffffff', height: '350px' }}>
-          <img src={hairdresser1} alt="hair-salon" />
+          <img src={hairdresser1} alt="hair-salon stylist-Cate Don" />
           <div className="card-body" style={{ height: '60px' }}>
             <p className="card-title"><span>Cate Don</span></p>
             <p className="card-text">
@@ -114,7 +114,7 @@ export default function Home() {
           </div>
         </div>
         <div className="card" style={{ backgroundColor: '#000000', color: '#ffffff', height: '350px' }}>
-          <img src={hairdresser2} alt="hair-salon" />
+          <img src={hairdresser2} alt="hair-salon stylist-Craig Dennis" />
           <div className="card-body" style={{ height: '60px' }}>
             <p className="card-title"><span>Craig Dennis</span></p>
             <p className="card-text">
@@ -123,7 +123,7 @@ export default function Home() {
           </div>
         </div>
         <div className="card" style={{ backgroundColor: '#000000', color: '#ffffff', height: '350px' }}>
-          <img src={hairdresser3} alt="hair-salon" />
+          <img src={hairdresser3} alt="hair-salon stylist-Anna Daniel" />
           <div className="card-body" style={{ height: '60px' }}>
             <p className="card-title"><span>Anna Daniel</span></p>
             <p className="card-text">

@@ -7,7 +7,6 @@ export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
     <div id="divHeader">
-
       <nav className="navigation">
         <h1 className='headColor sidepadding'>Hair with Flair</h1>
         <button
