@@ -55,7 +55,7 @@ h1 {
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
-  top: 50%;
+  top: 65%;
   right: 25px;
   transform: translateY(-50%);
   display: none;
@@ -79,7 +79,6 @@ h1 {
 .AboutUs {
   height: 300px;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .divServices {
@@ -240,7 +239,7 @@ ol li {
   box-shadow: 0 0 4px rgba(0, 0, 0, .75);
   color: #FFFAFA;
   cursor: pointer;
-}buttons
+}
 
 #buttons:hover {
   background-color: #f4f4f4;
@@ -422,9 +421,9 @@ a {
 
   .navigation-menu li a {
     color: rgb(184 34 67);
-    ;
     width: 100%;
     font-weight: bold;
+    font-size: 22px;
   }
 
   .navigation-menu li.active {
@@ -459,7 +458,7 @@ a {
   }
 
   #divHeader {
-    padding-top: 12%;
+    padding-top: 15%;
   }
 
   #container,
@@ -498,7 +497,7 @@ a {
   }
 
   .accordion__button {
-    width: 87% !important;
+    width: 90% !important;
   }
 
   .accordion {
@@ -528,4 +527,15 @@ a {
   .service-section:nth-child(3) {
     background-color: #f9f9f9;
   }
+}
+@media screen and (min-width: 768px) and  (max-width: 830px) {
+  .card img {
+    height: 70%;
+}
+#divHeader {
+  padding-top: 4%;
+}
+.AboutUs {
+  height: auto;
+}
 }
